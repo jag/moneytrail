@@ -1,0 +1,229 @@
+/* Reset margin and padding*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 14px;
+	color: #333;
+}
+
+#header {
+	height: 96px;
+	background-image: url('background_capInterior.jpg');
+	border-bottom: 1px solid #999;
+}
+
+#sitename {
+	position: relative;
+	float: left;
+	margin: 25px 0px 0px 10px;
+	color: #060;
+	font-size: 3.5em;
+	font-weight: bold;
+	text-shadow: #FFF 0px 2px 1px;
+}
+
+#content {
+	margin: 20px 0px 0px 10px;	
+}
+#search {
+	width: 100%;
+	height: 100px;
+	float: left;
+	display: block;
+}
+label {
+	float:left;
+}
+
+#search_input{
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+#search_map {
+	position: absolute;
+	left:220px;
+	top: 200px;
+	width: 750px;
+	height: 450px;
+	float:left;
+	color:blue;
+}
+
+.link_type{
+	color:blue;
+	text-decoration:underline;
+}
+
+.link_type:hover{
+	cursor:pointer;
+}
+
+#main1 {
+	float: left;
+	width: 200px;
+}
+
+#main2 {
+	float: left;
+	margin-left: 50px;
+	width: 400px;
+}
+
+#main3 {
+	float: left;
+	margin-left: 50px;
+	width: 200px;
+}
+
+#senators, #votes, #money {
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+
+#senators li, span.senator {
+	padding: 2px;
+}
+
+#votes li, span.bill {
+	padding: 5px;
+}
+
+#votes li {
+	margin-bottom: 1px;
+}
+
+#votes a, #votes a:visited {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#senators li span:hover, #senators li span.selected {
+	color: #FFF;
+	background-color: #666;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+span.dem {
+	padding-right: 25px;
+	background-image: url("democrat.png");
+	background-repeat: no-repeat;
+}
+
+span.rep {
+	padding-right: 25px;
+	background-image: url("republican.png");
+	background-repeat: no-repeat;
+}
+
+span.ind {
+	padding-right: 25px;
+	background-image: url("independent.png");
+	background-repeat: no-repeat;
+}
+
+.yes {
+	background-color: #AAD450;
+}
+
+.no {
+	background-color: #F6402D;
+}
+
+.vote_label {
+	font-variant: small-caps;
+	padding: 2px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#money li {
+	padding: 10px 0px 10px 10px;
+	margin-bottom: 1px;
+}
+
+.lobby {
+	padding: 2px;
+}
+
+li.even {
+	background-color: #EEE;
+}
+li.odd {
+	background-color: #DDD;
+}
+
+/* Twitter */
+#results {
+	background-color:#FFFFFF;
+	border:1px solid #222222;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding:10px;
+}
+
+#statuses {
+	font-size:14px;
+	list-style:none outside none;
+}
+
+li.status {
+	border-bottom:1px solid #EEEEEE;
+	line-height:16px;
+	padding:10px 0 8px;
+	position:relative;
+}
+
+.thumb {
+	display:block;
+	height:50px;
+	left:0;
+	margin:0 10px 0 0;
+	overflow:hidden;
+	position:absolute;
+	width:50px;
+	z-index:10;
+}
+
+.thumb img {
+	height:48px;
+	width:48px;
+	border-color:transparent;
+	border-width:0;
+}
+
+span.status-body {
+	display:block;
+	margin-left:56px;
+	min-height:48px;
+	overflow:visible;
+	width:425px;
+}
+
+span.status-content {
+	overflow:hidden;
+}
+
+.meta {
+	color:#999999;
+	display:block;
+	font-size:11px;
+}
+
+.meta a {
+	color:#999999;
+}
+
+a {
+	text-decoration:none;
+	color:#4863A0;
+}
+
+.bold {
+	font-weight: bold;
+}
